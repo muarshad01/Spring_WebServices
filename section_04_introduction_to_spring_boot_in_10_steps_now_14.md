@@ -8,7 +8,7 @@
 
 ## 30. Step 03 - Setting up New Spring Boot Project with Spring Initializr
 
-**
+***
 
 ## 31. Step 04 - Build a Hello World API with Spring Boot
 
@@ -53,4 +53,3 @@
 ## 41. Step 14 - Getting Started with Spring Book - Review
 
 ***
-
