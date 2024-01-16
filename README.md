@@ -14,9 +14,9 @@
 
 * [Section 05: Introduction to Maven](https://github.com/muarshad01/Spring_WebServices/blob/main/section_05_introduction_to_maven.md)
 
-* [Section 06: Introduction to Gradle](https://github.com/muarshad01/Spring_WebServices/blob/main/section_06_introduction_to_gradle.md)
+* [Section 06: Introduction to Gradle](https://github.com/muarshad01/Spring_WebServices/blob/main/section_06_introduction_to_gradle.md) - NA
 
-* [Section 07: SOAP Web Services with Spring and Spring Boot](https://github.com/muarshad01/Spring_WebServices/blob/main/section_07_soap_web_services_with_spring_and_spring_boot.md)
+* [Section 07: SOAP Web Services with Spring and Spring Boot](https://github.com/muarshad01/Spring_WebServices/blob/main/section_07_soap_web_services_with_spring_and_spring_boot.md) - NA
 
 * [Section 08: RESTful Web Services with Spring and Spring Boot](https://github.com/muarshad01/Spring_WebServices/blob/main/section_08_RESTful_Web_Services_with_Spring_and_Spring_Boot.md)
 
