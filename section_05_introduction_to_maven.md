@@ -1,5 +1,18 @@
 ## 42. Step 01 - Introduction to Maven
 
+* How to build your project
+    * Maven
+    * [Apache Maven Project](https://maven.apache.org/)
+
+***
+
+* Create new projects
+* Manage dependencies
+* Build a JAR file
+* Run your application locally in Tomcat or Jetty
+* Run unit tests
+* Deploy to a test environment
+
 ***
 
 ## 43. Step 02 - Creating a Spring Book Project with Maven
