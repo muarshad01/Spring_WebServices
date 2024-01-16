@@ -15,7 +15,7 @@
 
 ***
 
-## 43. Step 02 - Creating a Spring Book Project with Maven
+## 43. Step 02 - Creating a Spring-Boot Project with Maven
 
 ***
 
