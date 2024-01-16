@@ -24,6 +24,10 @@
 
 * [Section 10: Connecting RESTful Web Services to JPA](https://github.com/muarshad01/Spring_WebServices/blob/main/section_10_connecting_RESTful_Web_Services_to_JPA.md)
 
-* [RESTFUL Web Services Best Practices](https://github.com/muarshad01/Spring_WebServices/blob/main/section_11_RESTful_Web_Services_Best_Practices.md)
+* [Section 11: RESTFUL Web Services Best Practices](https://github.com/muarshad01/Spring_WebServices/blob/main/section_11_RESTful_Web_Services_Best_Practices.md)
+
+* []()
+
+* [Section 13: Introduction to Functional Programming](https://github.com/muarshad01/Spring_WebServices/blob/main/section_13_Introduction_to_functional_programming.md)
 
 ***
