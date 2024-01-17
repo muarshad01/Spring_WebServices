@@ -31,3 +31,7 @@
 * [Section 13: Introduction to Functional Programming](https://github.com/muarshad01/Spring_WebServices/blob/main/section_13_Introduction_to_functional_programming.md)
 
 ***
+
+## Other
+
+* [Change your Java versions in VS Code!](https://www.youtube.com/watch?v=p-H7Q9PtSc8)

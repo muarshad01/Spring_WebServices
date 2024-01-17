@@ -1,5 +1,16 @@
 ## 11. Step 01 - Getting Started with Spring Framework - Goals
 
+* Loosely coupled HelloWorld Gaming App
+
+* Terminology
+    * Tight coupling and Loose coupuling
+    * IOC Container
+    * Application Context
+    * Component Scan
+    * Dependency Injection
+    * Spring Beans
+    * Auto Wiring
+
 ***
 
 ## 12. Fastest Approach to Solve All Your Exceptions
@@ -7,6 +18,8 @@
 ***
 
 ## 13. Step 02 - Setting up New Spring Project with Spring Initializr
+
+* [start.spring.io](start.spring.io)
 
 ***
 

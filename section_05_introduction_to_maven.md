@@ -17,6 +17,17 @@
 
 ## 43. Step 02 - Creating a Spring-Boot Project with Maven
 
+* [https://start.spring.io/](https://start.spring.io/)
+    * Project -> Maven
+    * Language -> Java
+    * Spring Boot -> 3.2.1 (Don't pick SNAPSHOT)
+    * Project Metadata
+        * Group: com.in28minutes
+        * Artifact: learn-mavens
+        * Default for other things
+        * Packaging: Jar
+        * Java 17
+        * GENERATE
 ***
 
 ## 44. Step 03 - Exploring Maven `pom.xml` for Spring Boot Project
