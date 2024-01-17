@@ -48,10 +48,23 @@
 
 ## 19. Step 08 - Q1 - Spring Framework - Understanding whats happening in Background
 
+How does Spring identify components `@component` and wire them together `@Autowire`.
 ***
+
+* Edit `application.properties`
+    * `logging.level.org.springframework=debug`
 
 ## 20. Step 09 - Q2 - Spring Framework - Understanding Important Terminology
 
+* `@component`: Class managed by Spring framework
+* Dependency
+* `@SpringBootApplication`
+* `@ComponentScan({"com.pacakge1","com.package2"})` 
+* Dependency Injection
+    * Identify beans
+    * their dependencies
+    * wire them together
+    * (provides IOC - Inversion of Control)
 ***
 
 ## 21. Step 10 - Q3 - Spring Framework - Does Spring Framework Add Value
