@@ -34,4 +34,6 @@
 
 ## Other
 
+* [Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)
+
 * [Change your Java versions in VS Code!](https://www.youtube.com/watch?v=p-H7Q9PtSc8)
