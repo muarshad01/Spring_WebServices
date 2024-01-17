@@ -21,6 +21,9 @@
 
 * [start.spring.io](start.spring.io)
 
+* File -> Open Folder -> `learn-spring.framework`
+* JAVA PROJECTS -> `...` -> Configure Java Runtime -> download -> Install New JDK -> 17 (LTS)
+* MAVEN -> Lifecycle -> clean
 ***
 
 ## 14. Step 03- Iteration 1 - Building Tightly Couples GameRunner and MarioGame
