@@ -90,6 +90,11 @@ How does Spring identify components `@component` and wire them together `@Autowi
 
 ## 24. Step 13 - Exploring Spring Framework Dependency Injection Types
 
+* Dependency Injection Types
+    * Constructor-based (RECOMMENDED!)
+    * Setter-based
+    * Field
+
 ***
 
 ## 25. Step 14 - Exploring Spring Modules
