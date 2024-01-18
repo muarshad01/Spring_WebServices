@@ -69,13 +69,22 @@ How does Spring identify components `@component` and wire them together `@Autowi
 
 ## 21. Step 10 - Q3 - Spring Framework - Does Spring Framework Add Value
 
+
 ***
 
 ## 22. Step 11 - Q4 - Spring Framework - Running Super Contra
 
+* `@Component`
+* `@Primary`
+
 ***
 
 ## 23. Step 12 - Q5 - Spring Framework - Maven
+
+* How is Spring JAR downloaded
+* Maven: Mange JARs needed by apps
+* Dependencies
+    * Transitive Dependencies
 
 ***
 
