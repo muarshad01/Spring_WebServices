@@ -1,5 +1,13 @@
 ## 28. Step 01 - Getting Started with Spring Boot - Goals
 
+* Spring Boot was introduced in 2016
+
+* Understand the MAGIC of Spring Boot
+* Spring Initializr
+    * Starter Projects
+    * Auto Configuration
+    * Developer Tools
+    * Actuator
 ***
 
 ## 29. Step 02 - Understanding the World Before Spring Before Spring Boot - 10,000 Feet Overview
