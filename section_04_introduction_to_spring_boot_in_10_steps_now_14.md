@@ -1,16 +1,27 @@
 ## 28. Step 01 - Getting Started with Spring Boot - Goals
 
-* Spring Boot was introduced in 2016
-
+* `Spring Boot` was introduced in 2016
+* What is the need for Spring Boot?
 * Understand the MAGIC of Spring Boot
+
 * Spring Initializr
     * Starter Projects
     * Auto Configuration
     * Developer Tools
     * Actuator
+
+* `Spring Boot` vs `Spring` MVC vs `Spring`
+
 ***
 
 ## 29. Step 02 - Understanding the World Before Spring Before Spring Boot - 10,000 Feet Overview
+
+* Dependency Management (`pom.xml`)
+* Web App Configuration (`web.xml`)
+* Manage Spring Beans (`context.xml`)
+* Implement Non Functional Requirements (NFRs)
+    * Logging / Error Handling / Monitoring
+* Component Scan / View Resolver
 
 ***
 
