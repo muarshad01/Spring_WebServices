@@ -31,6 +31,9 @@
 
 ## 31. Step 04 - Build a Hello World API with Spring Boot
 
+* http://localhost:8080/courses
+
+### URI Mapping
 * `@RestController`
 * `@RequestMapping("/courses")`
 
