@@ -41,9 +41,36 @@
 
 ## 32. Step 05 - Understanding the Goal of Spring Boot
 
-**
+* Help you build PRODUCTION-READY apps QUICKLY
+* Build Quickly
+    * Spring Initializr
+    * Spring Boot Starter Projects
+    * Spring Boot Auto Configuration
+    * Spring Boot DevTools
+
+* Be PRODUCTION-READY
+    * Logging
+    * Different Configuration for Different Environments
+    * Monitoring (Spring Boot Actuator)
+
+***
 
 ## 33. Step 06 - Understanding Spring Boot Magic - Spring Boot Started Projects
+
+* Web Application & REST API
+    * Spring Boot Starter Web
+        * `spring-web`
+        * `spring-webmvc`
+        * `spring-boot-starter-tomcat`
+        * `spring-boot-starter-json`
+* Unit Tests
+    * Sprint Boot Starter Test
+* Talk to database using JPA
+    * Spring Boot Starter Data JPA
+* Talk to database using JDBC
+    * Spring Boot Starter JDBC
+* Secure your web application or REST API
+    * Spring Boot Starter Security
 
 ***
 
