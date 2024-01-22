@@ -107,7 +107,21 @@
 
 ***
 
-## 36. Step 09 - Get Production Ready with Spring Boot -1 - Profiles
+## 36. Step 09 - Get Production Ready with Spring Boot -1- Profiles
+
+### Application Environments
+* dev
+* qa
+* staging
+* prod
+
+### Logging levels
+* trace
+* debug
+* info
+* warning
+* error
+* off
 
 ***
 
