@@ -31,6 +31,9 @@
 
 ## 31. Step 04 - Build a Hello World API with Spring Boot
 
+* `@RestController`
+* `@RequestMapping("/courses")`
+
 ***
 
 ## 32. Step 05 - Understanding the Goal of Spring Boot
