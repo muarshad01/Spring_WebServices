@@ -149,10 +149,10 @@
     * mappings - 
 
 ### Useful Links
-    * http://localhost:8080/actuator/beans
-    * http://localhost:8080/actuator/health
-    * http://localhost:8080/actuator/configprops
-    * http://localhost:8080/actuator/env
+* http://localhost:8080/actuator/beans
+* http://localhost:8080/actuator/health
+* http://localhost:8080/actuator/configprops
+* http://localhost:8080/actuator/env
     * http://localhost:8080/actuator/metrics
 
 ***
