@@ -76,6 +76,24 @@
 
 ## 34. Step 07 - Understanding Spring Boot Magic - Auto Configuration
 
+* Auto Configuratin: Automated configuration for your app
+    * Decided bases on:
+        * Which frameworks are in the Class Path?
+        * What is the existing configuration (Annotation, etc.)?
+
+* `application.properties`
+    * `logging.level.org.springframework=debug`
+
+* Example: Spring Bot Starter Web
+    * Dispatcher Servlet
+        * `DispatcherServletAutoConfiguration`
+    * Embedded Servlet Containter
+        * `EmbeddedWebServerFactoryCustomizerAutoConfiguration`
+    * Default Error Pages
+        * `ErrorMvcAutoConfiguration`
+    * Bean <-> JSON
+        * `JacksonHttpMessageConvertersConfiguation`
+
 ***
 
 ## 35. Step 08 - Build Faster with Spring Boot Dev Tools
