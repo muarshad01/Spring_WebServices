@@ -127,6 +127,8 @@
 
 ## 37. Step 10 - Get Production Ready with Spring Boot -2- Configuration Properties
 
+* `@ConfigurationProperties(perfix="currency-service")`
+
 ***
 
 ## 38. Step 11 - Get Production Ready with Spring Boot -3- Embedded Servers
