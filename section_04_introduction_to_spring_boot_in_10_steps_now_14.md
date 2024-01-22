@@ -133,9 +133,27 @@
 
 ## 38. Step 11 - Get Production Ready with Spring Boot -3- Embedded Servers
 
+* Embedded Server Examples
+    * `spring-boot-starter-tomcat`
+    * `spring-boot-starter-jetty`
+    * `spring-boot-starter-undertow`
+
 ***
 
 ## 39. Step 12 - Get Production Ready with Spring Boot -4- Actuator
+
+* Provides a number of endpoints
+    * beans - 
+    * health - 
+    * metrics - 
+    * mappings - 
+
+### Useful Links
+    * "http://localhost:8080/actuator/beans"
+    * "http://localhost:8080/actuator/health"
+    * "http://localhost:8080/actuator/configprops"
+    * "http://localhost:8080/actuator/env"
+    * "http://localhost:8080/actuator/metrics"
 
 ***
 
