@@ -96,7 +96,14 @@
 
 ***
 
-## 35. Step 08 - Build Faster with Spring Boot Dev Tools
+## 35. Step 08 - Build Faster with `Spring Boot DevTools`
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-devtools</artifactId>
+</dependency>
+```
 
 ***
 
