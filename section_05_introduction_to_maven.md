@@ -7,11 +7,11 @@
 ***
 
 * Create new projects
-* Manage dependencies
+* Manage dependencies/Transitive dependencies
 * Build a JAR file
 * Run your application locally in Tomcat or Jetty
-* Run unit tests
-* Deploy to a test environment
+* Run Unit Tests
+* Deploy to a Test Environment
 
 ***
 
@@ -23,7 +23,7 @@
     * Spring Boot -> 3.2.1 (Don't pick SNAPSHOT)
     * Project Metadata
         * Group: com.in28minutes
-        * Artifact: learn-mavens
+        * Artifact: learn-maven
         * Default for other things
         * Packaging: Jar
         * Java 17
@@ -31,6 +31,15 @@
 ***
 
 ## 44. Step 03 - Exploring Maven `pom.xml` for Spring Boot Project
+
+* Project Object Model (POM)
+
+* Spring dependencies example:
+    * `spring-boot-starter-web`
+    * `spring-boot-starter-test`
+
+* Parent POM: `spring- boot-starter-parent`
+    * `spring-boot-dependencies`
 
 ***
 
