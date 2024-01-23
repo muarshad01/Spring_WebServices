@@ -157,8 +157,21 @@
 
 ***
 
-## 40. Step 13 - Understanding Spring Book vs Spring vs Spring MVC
+## 40. Step 13 - Understanding Spring vs Spring MVC vs Spring Boot
 
+* Spring Framework
+    * `@Component`, `@Autowired`, Component Scan, etc.
+* Spring MVC
+    * Simplify building WebApps and RESTful API
+        * `@Controller`, `@RestController`, `@RequestMapping("/courses")`
+* Spring Boot
+    * Starter Projects
+    * Auto Configuration
+    * Enable non-functional requirements (NFRs):
+        * Actuator
+        * Embedded Server
+        * Logging and Error Handling
+        * Profiles and Configuration Properties
 ***
 
 ## 41. Step 14 - Getting Started with Spring Book - Review
