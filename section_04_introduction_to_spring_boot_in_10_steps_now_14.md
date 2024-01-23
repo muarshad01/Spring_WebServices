@@ -142,18 +142,13 @@
 
 ## 39. Step 12 - Get Production Ready with Spring Boot -4- Actuator
 
-* Provides a number of endpoints
-    * beans - 
-    * health - 
-    * metrics - 
-    * mappings - 
-
-### Useful Links
-* http://localhost:8080/actuator/beans
-* http://localhost:8080/actuator/health
-* http://localhost:8080/actuator/configprops
-* http://localhost:8080/actuator/env
-* http://localhost:8080/actuator/metrics
+* Actuator - `spring-boot-starter-actuator`
+    * Provides a number of endpoints
+        * beans - http://localhost:8080/actuator/beans
+        * health - http://localhost:8080/actuator/health
+        * metrices - http://localhost:8080/actuator/metrics
+        * http://localhost:8080/actuator/configprops
+        * http://localhost:8080/actuator/env
 
 ***
 
@@ -163,15 +158,15 @@
     * `@Component`, `@Autowired`, Component Scan, etc.
 * Spring MVC
     * Simplify building WebApps and RESTful API
-        * `@Controller`, `@RestController`, `@RequestMapping("/courses")`
+        * `@RestController`, `@RequestMapping("/courses")`
 * Spring Boot
     * Starter Projects
     * Auto Configuration
     * Enable non-functional requirements (NFRs):
-        * Actuator
+        * Actuator (`spring-boot-starter-actuator`)
         * Embedded Server
-        * Logging and Error Handling
-        * Profiles and Configuration Properties
+        * Logging and Error Handling (`application.properties`)
+        * Profiles and Configuration Properties (`@ConfigurationProperties(prefix="...")`)
 ***
 
 ## 41. Step 14 - Getting Started with Spring Book - Review
