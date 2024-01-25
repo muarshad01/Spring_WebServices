@@ -12,7 +12,7 @@
 
 * [Section 04: Introduction to Spring Boot in 10 Steps (NOW 14)](https://github.com/muarshad01/Spring_WebServices/blob/main/section_04_introduction_to_spring_boot_in_10_steps_now_14.md) -- January 22, 2024
 
-* [Section 05: Introduction to Maven](https://github.com/muarshad01/Spring_WebServices/blob/main/section_05_introduction_to_maven.md)
+* [Section 05: Introduction to Maven](https://github.com/muarshad01/Spring_WebServices/blob/main/section_05_introduction_to_maven.md) -- January 24, 2024
 
 * [Section 06: Introduction to Gradle](https://github.com/muarshad01/Spring_WebServices/blob/main/section_06_introduction_to_gradle.md) - NA
 
