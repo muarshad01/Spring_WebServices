@@ -67,6 +67,13 @@
 
 ## 89. Step 08 - Implementing GET Methods for User Resource
 
+```java
+public User findOne(int id) {
+    Predicate<? super User> predicate = user -> user.getAge().equals(id);
+    return users.stream().filter(predicate).findFirst().get();
+}
+```
+
 ***
 
 ## 90. Step 09 - Implementing POST Method to create User Resource
