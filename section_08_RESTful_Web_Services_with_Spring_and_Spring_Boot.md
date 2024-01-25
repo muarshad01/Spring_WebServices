@@ -24,6 +24,7 @@
 * `@RestController`
 * `@GetMapping("/hello-world")` 
 
+
 ***
 
 ## 83. Step 03 - Enhancing the Hello World REST API to return a Bean
@@ -31,6 +32,18 @@
 ***
 
 ## 84. Step 04 - What's happening in the background? Spring Boot Starters and Autoconfiguration
+
+* File `application.properties`
+    * Enable `logging.level.org.springframework=debug`
+
+### Mapping servlets: dispatcherServlet urls=[/]
+* Auto Configuration (DispatcherServletAutoConfiguration)
+
+### Bean to JSON conversion
+* Auto Configuration (JacksonHttpMessageConvertersConfiguration)
+
+### Error Mapping
+* Auto Configuration(ErrorMvcAutoConfiguration)
 
 ***
 
@@ -115,6 +128,8 @@
 ***
 
 ## 105. Step 21. Versioning REST API - Request Param, Header and Content Negotiation
+
+***
 
 ## 106. Step 22. Implementing HATEOS for REST API
 
