@@ -37,3 +37,6 @@
 * [Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)
 
 * [Change your Java versions in VS Code!](https://www.youtube.com/watch?v=p-H7Q9PtSc8)
+
+### Rest API Client
+* [Talend API Tester - Free Edition](https://chromewebstore.google.com/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?pli=1)

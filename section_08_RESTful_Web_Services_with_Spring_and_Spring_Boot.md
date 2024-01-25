@@ -78,6 +78,11 @@ public User findOne(int id) {
 
 ## 90. Step 09 - Implementing POST Method to create User Resource
 
+### Rest API Client
+* [Talend API Tester - Free Edition](https://chromewebstore.google.com/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?pli=1)
+ 
+* Response Status = 200 (success)
+
 ***
 
 ## 91. Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location
