@@ -65,11 +65,11 @@
 
 ```
 mvn --version
-mvn compile # Compile source files
-mvn test-compile    # Compile test files
-mvn clean   # Delete target directory
-mvn test    # Run Unit tests
-mvn package # Create a jar
+mvn compile             # Compile source files
+mvn test-compile        # Compile test files
+mvn clean               # Delete target directory
+mvn test                # Run Unit tests
+mvn package             # Create a jar
 mvn help:effective-pom
 mvn dependency:tree
 ```
