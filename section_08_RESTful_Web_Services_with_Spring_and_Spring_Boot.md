@@ -33,21 +33,23 @@
 
 ## 84. Step 04 - What's happening in the background? Spring Boot Starters and Autoconfiguration
 
-* File `application.properties`
+* Edit file `application.properties`:
     * Enable `logging.level.org.springframework=debug`
 
 ### Mapping servlets: dispatcherServlet urls=[/]
-* Auto Configuration (DispatcherServletAutoConfiguration)
+* Auto Configuration (`DispatcherServletAutoConfiguration`)
 
 ### Bean to JSON conversion
-* Auto Configuration (JacksonHttpMessageConvertersConfiguration)
+* Auto Configuration (`JacksonHttpMessageConvertersConfiguration`)
 
 ### Error Mapping
-* Auto Configuration(ErrorMvcAutoConfiguration)
+* Auto Configuration(`ErrorMvcAutoConfiguration`)
 
 ***
 
 ## 85. Step 05 - Enhancing the Hello World REST API with a Path Variable
+
+* `@PathVariable`
 
 ***
 
