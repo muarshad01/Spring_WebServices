@@ -10,9 +10,19 @@
 
 ## 81. Step 01 - Initializing a REST API Project with Spring Boot
 
+* https://start.spring.io
+* ADD DEPENDENCIES
+    * Spring WEB
+    * Spring Data JPA
+    * H2 Database
+    * Spring Boot DevTools
+
 ***
 
 ## 82. Step 02 - Creating a Hello World REST API with Spring Boot
+
+* `@RestController`
+* `@GetMapping("/hello-world")` 
 
 ***
 
