@@ -87,10 +87,7 @@ public User findOne(int id) {
 
 ## 91. Step 10 - Enhancing POST Method to return correct HTTP Status Code and Location
 
-```
-
 ```java
-// /users/4 => /users add /{id} replace `id` with savedUser.getId()  
 URI location = ServletUriComponentsBuilder
                     .fromCurrentRequest()
                     .path("/{id}")
