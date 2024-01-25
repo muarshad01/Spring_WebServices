@@ -78,4 +78,11 @@ mvn dependency:tree
 
 ## 50. Step 09 - How are Spring Projects Versioned?
 
+* Version scheme
+    * `MAJOR.MINOR.PATCH[-MODIFIER]`
+* MODIFIER
+    * Milestones - M1, M2, ...
+    * Release candidates - RC1, RC2, ...
+    * Snapshots - SNAPSHOT
+
 ***
