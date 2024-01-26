@@ -115,6 +115,8 @@ return ResponseEntity.created(location).build();
 
 ## 95. Step 13 - Implementing DELETE Method to delete a User Resource
 
+* `@DeleteMapping("/users/{id}")` 
+
 ***
 
 ## 96. Step 14. Implementing Validations for REST API
