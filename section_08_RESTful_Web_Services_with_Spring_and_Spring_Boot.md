@@ -210,7 +210,7 @@ private LocalDate birthDate;
 * `resources/messages.properties`
     * good.morning.message=Good Morning
 
-* `resources/messages_1.properties`
+* `resources/messages_nl.properties`
     * good.morning.message=Goedemoergen
 
 ***
