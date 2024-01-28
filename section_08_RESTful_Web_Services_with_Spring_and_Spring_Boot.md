@@ -163,7 +163,29 @@ private LocalDate birthDate;
 
 ***
 
-## 99. springdoc-openapi Dependency for next lecture 
+## 99. `springdoc-openapi` Dependency for next lecture 
+
+* [Springdoc-openapi](https://springdoc.org/)
+```
+This library supports:
+- OpenAPI 3
+- Spring-boot v3 (Java 17 & Jakarta EE 9)
+- JSR-303, specifically for @NotNull, @Min, @Max, and @Size.
+- Swagger-ui
+- OAuth 2
+- GraalVM native images
+```
+
+```xml
+<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+    <version>2.3.0</version>
+</dependenc>
+```
+
+* http://localhost:8080/swagger-ui/index.html
+
 
 ***
 
