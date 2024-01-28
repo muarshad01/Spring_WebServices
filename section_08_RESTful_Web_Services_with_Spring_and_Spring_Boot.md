@@ -157,6 +157,10 @@ private LocalDate birthDate;
 
 ## 98. Step 16. Understanding Open API Specification and Swagger
 
+* 2011 - Swagger Specification
+* 2016 - Open API Specification, based on Swagger Spec.
+    * Standard language-agnostic interface
+
 ***
 
 ## 99. springdoc-openapi Dependency for next lecture 
