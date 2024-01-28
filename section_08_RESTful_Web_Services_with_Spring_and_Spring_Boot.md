@@ -221,6 +221,16 @@ private LocalDate birthDate;
 
 ## 104. Step 20 - Versioning REST API - URI Versioning
 
+* Option for versioning APIs
+    * URL
+    * Request Parameter
+    * Header
+    * Media Type
+
+### URI Versioning
+    * http://localhost:8080/v1/person
+    * http://localhost:8080/v2/person
+
 ***
 
 ## 105. Step 21 - Versioning REST API - Request Param, Header and Content Negotiation
