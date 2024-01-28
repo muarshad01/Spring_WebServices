@@ -195,9 +195,24 @@ This library supports:
 
 ## 101. Step 18 - Exploring Content Negotiation - Implementing Support for XML
 
+```xml
+<dependency>
+  <groupId>com.fasterxml.jackson.dataformat</groupId>
+  <artifactId>jackson-dataformat-xml</artifactId>
+  <version>2.15.0</version>
+</dependency>
+```
+
+* Accept header 
+    * application/xml
+    * application/json
+
 ***
 
 ## 102. Step 19 - Exploring Internalization for REST API
+
+* Accept-Language header
+    * en, nl, fr, ...
 
 ***
 
