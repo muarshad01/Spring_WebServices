@@ -121,9 +121,37 @@ return ResponseEntity.created(location).build();
 
 ## 96. Step 14. Implementing Validations for REST API
 
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
+```
+
+* `@valid` - `import jakarta.validation.Valid;`
+    * Constraints defined on the object and its properties are validated when the property, method-parameter or method-return-type is validated.
+
+
+```java
+@Size(min=2, message = "Name should have atleast 2 characters.")
+private String name;
+
+@Past(message = "Birth Data should be in the past.")
+private LocalDate birthDate;
+```
+
 ***
 
 ## 97. Step 15. Overview of Advanced REST API Features
+
+* Documentation
+* Content Negotiation
+* Internationalization - i18n
+* Versioning
+* HATEOAS
+* Static Filtering
+* Dynamic Filtering
+* Monitoring
 
 ***
 
