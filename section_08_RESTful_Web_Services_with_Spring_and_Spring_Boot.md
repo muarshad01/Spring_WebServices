@@ -166,15 +166,6 @@ private LocalDate birthDate;
 ## 99. `springdoc-openapi` Dependency for next lecture 
 
 * [Springdoc-openapi](https://springdoc.org/)
-```
-This library supports:
-- OpenAPI 3
-- Spring-boot v3 (Java 17 & Jakarta EE 9)
-- JSR-303, specifically for @NotNull, @Min, @Max, and @Size.
-- Swagger-ui
-- OAuth 2
-- GraalVM native images
-```
 
 ```xml
 <dependency>
@@ -224,11 +215,11 @@ This library supports:
 
 ***
 
-## 105. Step 21. Versioning REST API - Request Param, Header and Content Negotiation
+## 105. Step 21 - Versioning REST API - Request Param, Header and Content Negotiation
 
 ***
 
-## 106. Step 22. Implementing HATEOS for REST API
+## 106. Step 22 - Implementing HATEOS for REST API
 
 ***
 
@@ -246,4 +237,4 @@ This library supports:
 
 ## 110. Step 26 - Exploring APIs with Spring Boot HAL Explorer
 
-****
+***
