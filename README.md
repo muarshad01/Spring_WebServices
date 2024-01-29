@@ -18,7 +18,7 @@
 
 * [Section 07: SOAP Web Services with Spring and Spring Boot](https://github.com/muarshad01/Spring_WebServices/blob/main/section_07_soap_web_services_with_spring_and_spring_boot.md) - NA
 
-* [Section 08: RESTful Web Services with Spring and Spring Boot](https://github.com/muarshad01/Spring_WebServices/blob/main/section_08_RESTful_Web_Services_with_Spring_and_Spring_Boot.md)
+* [Section 08: RESTful Web Services with Spring and Spring Boot](https://github.com/muarshad01/Spring_WebServices/blob/main/section_08_RESTful_Web_Services_with_Spring_and_Spring_Boot.md) -- January 29, 2024
 
 * [Section 09: Introduction to JPA in 10 Steps now 12 Steps](https://github.com/muarshad01/Spring_WebServices/blob/main/section_09_Introduction_to_jpa_in_10_steps_now_12_steps.md)
 
