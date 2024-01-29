@@ -309,4 +309,16 @@ private LocalDate birthDate;
 
 ## 110. Step 26 - Exploring APIs with Spring Boot HAL Explorer
 
+### HAL Explorer
+    * An API explorer for RESTful Hypermedia APIs using HAL
+
+```xml
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-rest-hal-explorer</artifactId>
+</dependency>
+```
+
+* http://localhost:8080/
+
 ***
