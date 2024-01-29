@@ -239,6 +239,8 @@ private LocalDate birthDate;
 
 ## 106. Step 22 - Implementing HATEOS for REST API
 
+* Hypermedia as the Engine of Application State (HATEOAS)
+
 ***
 
 ## 107. Step 23 - Implementing Static Filtering for REST API
