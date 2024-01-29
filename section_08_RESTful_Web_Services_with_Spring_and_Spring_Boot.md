@@ -252,6 +252,20 @@ private LocalDate birthDate;
 </dependency>
 ```
 
+```java
+    @GetMapping("/users/{id}")
+    public EntityModel<User> retrieveUser(@PathVariable int id) {
+
+        User user = service.findOne(id);
+
+        EntityModel<User> entityModel = EntityModel.of(user);
+        WebMvcLinkBuilder link = linkTo(methodOn(this.getClass()).retrieveUser(id));
+        entityModel.add(link.withRel("all-users"));
+
+        return entityModel;
+    }
+```
+
 ***
 
 ## 107. Step 23 - Implementing Static Filtering for REST API
