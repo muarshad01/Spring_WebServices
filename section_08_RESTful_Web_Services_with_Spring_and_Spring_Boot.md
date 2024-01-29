@@ -241,9 +241,9 @@ private LocalDate birthDate;
 
 * How about enhancing your REST API to tell consumers how to perform subsequent actions?
     * Hypermedia as the Engine of Application State (HATEOAS)
-* Spring HATEOAS: Generate HAL responses with hyperlinks to resources
-* HAL (JSON Hypertext Application Language)
-    * Simple format that gives a consistent and easy way to hyperlink between resources in your API
+    * Spring HATEOAS generate HAL responses with hyperlinks to resources
+        * HAL (JSON Hypertext Application Language)
+            * Simple format that gives a consistent and easy way to hyperlink between resources in your API
 
 ```xml
 <dependency>
