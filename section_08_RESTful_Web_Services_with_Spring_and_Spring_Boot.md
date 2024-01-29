@@ -291,6 +291,20 @@ private LocalDate birthDate;
 
 ## 109. Step 25 - Monitoring APIs with Spring Boot Actuator
 
+* Monitor and manage your application in production
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+```
+
+* Edit `application.properties`
+    * management.endpoints.web.exposure.include=*
+
+* http://localhost:8080/actuator
+
 ***
 
 ## 110. Step 26 - Exploring APIs with Spring Boot HAL Explorer
