@@ -44,18 +44,17 @@ select * from course
 delete from course where id=1
 ```
 
+***
+
+## 115. Step 05 - Inserting Hardcoded Data using `Spring JDBC`
 
 ***
 
-## 115. Step 05 - Inserting Hardcoded Data using Spring JDBC
+## 116. Step 06 - Inserting and Deleting Data using `Spring JDBC`
 
 ***
 
-## 116. Step 06 - Inserting and Deleting Data using Spring JDBC
-
-***
-
-## 117. Step 07 - Querying Data using Spring JDBC
+## 117. Step 07 - Querying Data using `Spring JDBC`
 
 ***
 
