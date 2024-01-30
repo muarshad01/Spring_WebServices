@@ -4,6 +4,12 @@
 
 ## 112. Step 02 - Setting up New Spring Boot Project for JPA and Hibernate
 
+### Dependencies
+* web
+* jdbc
+* jpa
+* h2
+
 ***
 
 ## 113. Step 03 - Launching up H2 Console and Creating Course Table
