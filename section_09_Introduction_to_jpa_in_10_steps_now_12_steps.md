@@ -33,7 +33,17 @@ create table course
 
 ***
 
-## 114. Step 04 - Getting Started with Spring JDBC
+## 114. Step 04 - Getting Started with `Spring JDBC`
+
+```sql
+insert into course(id,name,author)
+values(1,'Learn AWS','in28minutes');
+
+select * from course
+
+delete from course where id=1
+```
+
 
 ***
 
