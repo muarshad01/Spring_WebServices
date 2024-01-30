@@ -14,6 +14,23 @@
 
 ## 113. Step 03 - Launching up H2 Console and Creating Course Table
 
+* Edit `application.properties`
+    * spring.h2.console.enabled=true
+    * spring.datasource.url=jdbc:h2:mem:testdb
+
+* http://localhost:8080/h2-console
+
+* Edit `resources/schema.sql`
+```sql
+create table course
+(
+    id bigint not null,
+    name varchar(255) not null,
+    author varchar(255) not null,
+    primary key (id)
+);
+```
+
 ***
 
 ## 114. Step 04 - Getting Started with Spring JDBC
