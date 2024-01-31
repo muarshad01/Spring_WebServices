@@ -60,9 +60,32 @@ delete from course where id=1
 
 ## 118. Step 08 - Getting Started with JPA and EntityManager
 
+* We'll be mapping Course-Bean directly to the table present in database.
+* `@Entity`
+* `@Id` - primary key
+* `@Repository`
+* `@PersistenceContext`
+
+* Edit `application.properties`
+    * `spring.jpa.show-sql=true`
+
 ***
 
 ## 119. Step 09 - Exploring the Magic of JPA
+
+* JDBC
+    * Write a lot of SQL queries!
+    * And write a lot of Java code
+
+* Spring JDBC
+    * Write a lot of SQL queries
+    * But lesser Java code
+* JPA
+    * Don't worry about queries
+    * Just Map Entities to Tables!
+* Spring Data JPA
+    * 
+    *
 
 ***
 
