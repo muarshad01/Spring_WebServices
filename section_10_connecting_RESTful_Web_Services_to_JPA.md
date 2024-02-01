@@ -26,6 +26,11 @@ spring.jpa.show-sql=true
 
 ## 126. Step 30 - Creating Post Entity with Many to One Relationship with
 
+* `@OneToMany`
+* `@ManyToAny(fetch = FetchType.LAZY)`
+* `@JsonIgnore`
+
+
 ***
 
 ## 127. Step 31 - Implementing a GET API to retrieve all Posts of a User
