@@ -6,9 +6,9 @@
 
 ### Dependencies
 * web
-* jdbc
-* jpa
-* h2
+* JDBC
+* JPA
+* H2
 
 ***
 
