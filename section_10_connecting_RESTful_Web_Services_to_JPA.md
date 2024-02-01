@@ -4,12 +4,12 @@
 
 ## 124. Step 28 - Creating User Entity and some test data
 
-* `user` is a keyword in h2 so we'd need to rename our table
-
+* `user` is a keyword in `h2` so we'd need to rename our table
 * `@Entity(name = "user_details")`
 * `@Id`
 * `@GeneratedValue`
 
+* Edit `application.properties`
 ```
 logging.level.org.springframework=info
 management.endpoints.web.exposure.include=*
