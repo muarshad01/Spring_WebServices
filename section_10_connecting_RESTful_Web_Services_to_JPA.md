@@ -4,6 +4,20 @@
 
 ## 124. Step 28 - Creating User Entity and some test data
 
+* `user` is a keyword in h2 so we'd need to rename our table
+
+* `@Entity(name = "user_details")`
+* `@Id`
+* `@GeneratedValue`
+
+```
+logging.level.org.springframework=info
+management.endpoints.web.exposure.include=*
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.defer-datasource-initialization=true
+spring.jpa.show-sql=true
+```
+
 ***
 
 ## 125. Step 29 - Enhancing REST API to connect to H2 using JPA and
