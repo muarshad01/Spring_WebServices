@@ -84,8 +84,6 @@ delete from course where id=1
     * Don't worry about queries
     * Just Map Entities to Tables!
 * Spring Data JPA
-    * 
-    *
 
 ***
 
