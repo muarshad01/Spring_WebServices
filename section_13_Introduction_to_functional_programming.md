@@ -1,5 +1,9 @@
 ## 142. Step 00 - Introduction to Functional Programming
 
+* Lambda Functions
+* Streams
+* Filters
+
 ***
 
 ## 143 - Step 01 - Getting Started with Functional Programming with Java
