@@ -92,9 +92,48 @@ $docker container ls
 
 ## 135 - Step 36 - Implementing Basic Authentication with Spring Security
 
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-security</artifactId>
+</dependency>	
+```
+
+* Edit `user.properties`
+    * `spring.security.user.name=username`
+    * `spring.security.user.password=password`
+* Authorization Header
+    * Add username/password
+
 ***
 
 ## 136 - Step 37 - Enhancing Spring Security Configuration for Basic
+
+* `@Configuration`
+* ` @Bean`
+
+```java
+@Configuration
+public class SpringSecurityConfiguration {
+
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
+        // 1. All requests should be authenticated
+        http.authorizeHttpRequests(
+                auth -> auth.anyRequest().authenticated()
+        );
+
+        // 2. If a request is not authenticated, a web page is shown
+        http.httpBasic(withDefaults());
+
+        // 3. CSRD -> POST, PUT
+        http.csrf().disable();
+
+        return http.build();
+    }
+}
+```
 
 ***
 
