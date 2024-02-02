@@ -69,23 +69,46 @@ courses.stream()
 
 ## 148. - Step 06 - Using map in Functional Programs 
 
+### Square of Even numbers
+```java
+numbers.stream()
+    .filter(number -> number % 2 == 0);   // Lambda Expression
+    .map(number -> number * number)
+    .forEach(System.out::println);      // Method Reference
+```
+
+### Cube of Odd numbers
+```java
+numbers.stream()
+    .filter(number -> number % 2 != 0);
+    .map(number -> number * number * number)
+    .forEach(System.out::println);      // Method Reference
+```
+
+### Course length
+```java
+numbers.stream()
+    .map(course -> course + " " + course.length());
+    .forEach(System.out::println);      // Method Reference
+```
+
 ***
 
 ## 149. - Step 07 - Understanding Optional class in Java
+
+```java
+List<String> fruits = List.of("apple", "banana", "mango");
+
+Predicate<? super String> predicate = fruit -> fruit.startsWith("b");
+Optional<String> optional = fruits.stream().filter(predicate).findFirst();
+System.out.println(optional);
+System.out.println(optional.isEmpty());
+System.out.println(optional.isPresent());
+System.out.println(optional.get());
+```
 
 ***
 
 ## 150. - Step 08 - Quick Review of Functional Programming Basics
 
 ***
-
-
-
-
-
-
-
-
-
-
-
