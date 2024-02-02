@@ -11,7 +11,12 @@
 ```java
 List<Integer> numbers;
 
-numbers.stream().forEach(ClassName::MethodName); //Method Reference
+public static void print(int number) {
+    System.out.println(number)
+}
+
+numbers.stream()
+    .forEach(ClassName::print); //Method Reference
 ```
 
 ***
@@ -19,8 +24,13 @@ numbers.stream().forEach(ClassName::MethodName); //Method Reference
 ## 144 - Step 02 - Writing Your First Java Functional Program
 
 ```java
-numbers.stream().forEach(System.out::println); //Method Reference
+numbers.stream()
+    .forEach(System.out::println); //Method Reference
 ```
+
+***
+
+## 145. - Step 03 - Improving Java Functional Program with filter
 
 ```java
 private static boolean isEven(int number) {
@@ -31,10 +41,6 @@ numbers.stream()
     .filter(ClassName::isEven); // Filter 
     .forEach(System.out::println); //Method Reference
 ```
-
-***
-
-## 145. - Step 03 - Improving Java Functional Program with filter
 
 ***
 
