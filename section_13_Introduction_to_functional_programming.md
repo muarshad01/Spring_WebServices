@@ -34,7 +34,7 @@ numbers.stream()
 
 ```java
 private static boolean isEven(int number) {
-    return number%2 == 0;
+    return number % 2 == 0;
 }
 
 numbers.stream()
@@ -48,7 +48,7 @@ numbers.stream()
 
 ```java
 numbers.stream()
-    .filter(number -> number%2 == 0);   // Lambda Expression
+    .filter(number -> number % 2 == 0);   // Lambda Expression
     .forEach(System.out::println);      // Method Reference
 ```
 
@@ -62,7 +62,7 @@ List<String> courses =
 
 courses.stream()
     .filter(course -> course.contains("Spring"))
-    .forEach(System.out::println)
+    .forEach(System.out::println);
 ```
 
 ***
@@ -89,7 +89,7 @@ numbers.stream()
 ```java
 numbers.stream()
     .map(course -> course + " " + course.length());
-    .forEach(System.out::println);      // Method Reference
+    .forEach(System.out::println); // Method Reference
 ```
 
 ***
