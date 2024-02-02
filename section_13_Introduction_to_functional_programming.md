@@ -46,9 +46,24 @@ numbers.stream()
 
 ## 146. - STEP 04 - Using Lambda Expression to enhance your
 
+```java
+numbers.stream()
+    .filter(number -> number%2 == 0);   // Lambda Expression
+    .forEach(System.out::println);      // Method Reference
+```
+
 ***
 
 ## 147. - Step 05 - Do Functional Programming Exercises with
+
+```java
+List<String> courses = 
+        List.of("Spring","Spring Boot","API","Microservices","AWS","PCF","Azure","Docker","Kubernetes");
+
+courses.stream()
+    .filter(course -> course.contains("Spring"))
+    .forEach(System.out::println)
+```
 
 ***
 
