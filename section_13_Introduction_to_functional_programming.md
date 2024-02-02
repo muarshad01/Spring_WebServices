@@ -8,9 +8,29 @@
 
 ## 143 - Step 01 - Getting Started with Functional Programming with Java
 
+```java
+List<Integer> numbers;
+
+numbers.stream().forEach(ClassName::MethodName); //Method Reference
+```
+
 ***
 
 ## 144 - Step 02 - Writing Your First Java Functional Program
+
+```java
+numbers.stream().forEach(System.out::println); //Method Reference
+```
+
+```java
+private static boolean isEven(int number) {
+    return number%2 == 0;
+}
+
+numbers.stream()
+    .filter(ClassName::isEven); // Filter 
+    .forEach(System.out::println); //Method Reference
+```
 
 ***
 
