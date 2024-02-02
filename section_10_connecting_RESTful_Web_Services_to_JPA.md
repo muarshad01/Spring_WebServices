@@ -79,6 +79,8 @@ docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=soc
 $docker container ls
 ```
 
+* `mysqlsh`
+
 ***
 
 ## 135 - Step 36 - Implementing Basic Authentication with Spring Security
