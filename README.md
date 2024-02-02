@@ -28,7 +28,7 @@
 
 * [Section 12: Congratulations](...)
 
-* [Section 13: Introduction to Functional Programming](https://github.com/muarshad01/Spring_WebServices/blob/main/section_13_Introduction_to_functional_programming.md)
+* [Section 13: Introduction to Functional Programming](https://github.com/muarshad01/Spring_WebServices/blob/main/section_13_Introduction_to_functional_programming.md) -- February 02, 2024
 
 ***
 
