@@ -42,3 +42,7 @@
 
 ### Rest API Client
 * [Talend API Tester - Free Edition](https://chromewebstore.google.com/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?pli=1)
+
+### Future Course
+* [[NEW] Master Spring Boot 3 & Spring Framework 6 with Java](https://www.udemy.com/course/spring-boot-and-spring-framework-tutorial-for-beginners/?couponCode=ST12MT030524)
+***
